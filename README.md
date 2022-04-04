@@ -13,7 +13,7 @@ This project required me to implement a naive Bayesian classifier for a set of s
 More information is provided on Bayesian classifiers here: https://sites.google.com/a/trinity.edu/csci2322-fl20/assignments/project-1-digit-classification/naive-bayesian-classifiers
 
 ## Files
-Files of interest in the project:
+I was responsible for creating/writing functions that perform the classification in DigitRecognition.hs. Other files were written by the professor to test the code. Files of interest in the project:
 * DigitRecognition.hs - This is the file I wrote code in
 * TestInputs.hs - This file contains sample inputs for ghci to test functions
 * Makefile - Used to build and test the project. 
