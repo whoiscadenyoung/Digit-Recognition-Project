@@ -1,8 +1,10 @@
 # Digit-Recognition-Project
 Implementing a naive Bayesian classifier in Haskell
 
+This project description is summarized from the course requirements. The project required handling images, implementing the classifier, improving accuracy through smoothing, and precomputing summaries of images for faster processing. 
+
 ## Summary
-This project required me to implement a naive Bayesian classifier for a set of scanned handwritten digit images. The goal is to guess which digit a handwritten image is supposed to be. A set (corpus) of 5000 training images was provided. Here is a summary of the project description as taken from the class project description:
+This project required me to implement a naive Bayesian classifier for a set of scanned handwritten digit images. The goal is to guess which digit a handwritten image is supposed to be. A set (corpus) of 5000 training images was provided. 
 * Instances are 28x28 black and white images.
 * Labels are the digits 0 through 9.
 * Since images are 28x28, there are 784 different pixels.
@@ -26,12 +28,12 @@ Files of interest in the project:
 ## Code Execution
 The project can be built using make. If the executable does not build, use `make setup` to install any missing Haskell packages. The executable and compiled source files can be removed using make clean.  The project compiles to classifier. To run grading tests on the project, use `./classifier --test`. To actually run the project on the images, use `./classifier -q -v 2 -n 20`. The following flags are supported: 
 
- `-h`  or  `--help`	Prints a help message and exits.
- `--test` Runs unit tests on your code.
- `-v n` Increase the verbosity of the output. 
- `-q` or `--quick` Speeds computation by using a smaller training set.
- `-c n` or `--count n`	Only test the first n images.
- `--timeout n` Time out computation after n minutes.
- `--ranking` If you've implemented rankImage, outputs the ranks of each digit instead of simply the best digit. 
+* `-h`  or  `--help`	Prints a help message and exits
+* `--test` Runs unit tests on your code.
+* `-v n` Increase the verbosity of the output. 
+* `-q` or `--quick` Speeds computation by using a smaller training set.
+* `-c n` or `--count n`	Only test the first n images.
+* `--timeout n` Time out computation after n minutes.
+* `--ranking` If you've implemented rankImage, outputs the ranks of each digit instead of simply the best digit. 
  
  
